@@ -3,7 +3,7 @@ const div = document.querySelector(".quadrado");
     div.style.height = "100px";
     div.style.backgroundColor = "black";
 
-let quadrado = div.addEventListener("click", function gerar() {
+let quadrado = div.addEventListener("click", function () {
 
     const body = document.querySelector("body");
     
